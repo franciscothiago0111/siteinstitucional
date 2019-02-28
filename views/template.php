@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <title>Site Institucional </title>
-    	<link rel="stylesheet"  href="/assets/css/template.css">
+    	<link rel="stylesheet"  href="/assets/css/style.css">
     
     <meta charset="utf-8">
   </head>

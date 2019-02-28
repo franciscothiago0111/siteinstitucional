@@ -3,7 +3,6 @@ body{
 	background-color: #1e1e1e;
 }
 
-
 h1{
 	margin: 0;
 	padding:0;
@@ -13,6 +12,7 @@ h1{
 	width:100%;
 	max-width: 980px;
 	height: 470px;
+	margin: auto;
 
 }
 
@@ -29,7 +29,7 @@ h1{
 
 .menu{
 	height: 50px;
-	background-color: #b70030;
+	background-color: #0062b7;
 	margin: auto;
 	max-width: 980px;
 	width: 100%;
@@ -38,11 +38,11 @@ h1{
 
 .container{
 	width: 100%;
-	max-width: 960px;
+	max-width: 940px;
 	margin: auto;
 	background-color: #FFFFFF;
 	min-height: 400px;
-	padding: 40px;
+	padding: 20px;
 
 
 }
@@ -99,6 +99,11 @@ margin-bottom:50px;
 	clear: both;
 	padding: 20px;
 }
+
+.home_portfolio h4{
+	color: #ffc6d9;
+}
+
 .portfolio_item{
 	width: 200px;
 	height: 150px;
@@ -108,12 +113,16 @@ margin-bottom:50px;
 
 }
 
-
-
-.contato  input  {
-
+.contato input,
+.contato textarea{
 	width: 400px;
-	height: 60px;
+	height: 30px;
 	border: 1px solid #000;
 	border-radius: 5px;
-} 
+
+}
+
+.contato textarea{
+	height: 150px;
+	width: 398px;
+}

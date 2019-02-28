@@ -13,10 +13,11 @@ class Portfolio extends model{
 
 		if($sql->rowCount() > 0){
 			$array = $sql->fetchAll();
+			
 
 		}
-
-		return $array;
+           return $array;
+		
 	}
 
 }
